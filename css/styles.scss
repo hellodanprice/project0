@@ -1,0 +1,41 @@
+
+$lightGreen: #55efc4;
+$green: #00b894;
+$peach: #e17055;
+$lightPeach: #fab1a0;
+$darkGrey: #2d3436;
+$lightGrey: #dfe6e9;
+
+.jumbotron {
+	background-color: $lightGreen;
+}
+
+.navbar {
+	background-color: $darkGrey;
+	color: $peach;
+}
+
+.nav-item {
+	color: $lightGrey;
+}
+
+a:hover {
+	color: $darkGrey;
+	font-weight: 200;
+	background-color: $lightPeach;
+	border-radius: 15px;
+}
+
+.navbar-brand {
+	color: $lightGrey;
+}
+
+h2 {
+	color: $green;
+}
+
+@media screen and (max-width: 600px){
+	#newsletter {
+		display: none;
+	}
+}

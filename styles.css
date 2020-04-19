@@ -1,0 +1,16 @@
+/* 
+five different CSS properties, 
+five different types of CSS selectors. 
+#id selector at least once
+.class selector at least once.
+one mobile-responsive @media query
+*/
+
+@font-face {
+	font-family: 'Archivo', sans-serif;
+}
+
+h1 {
+	font-family: 'Archivo', sans-serif;
+	padding-left: 1em;
+}

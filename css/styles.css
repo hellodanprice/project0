@@ -1,0 +1,35 @@
+.jumbotron {
+  background-color: #55efc4;
+}
+
+.navbar {
+  background-color: #2d3436;
+  color: #e17055;
+}
+
+.nav-item {
+  color: #dfe6e9;
+}
+
+a:hover {
+  color: #2d3436;
+  font-weight: 200;
+  background-color: #fab1a0;
+  border-radius: 15px;
+}
+
+.navbar-brand {
+  color: #dfe6e9;
+}
+
+h2 {
+  color: #00b894;
+}
+
+@media screen and (max-width: 600px) {
+  #newsletter {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
